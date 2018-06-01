@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Lay2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/audiovideo"
+    tools:context="com.example.angry.audiovideo.UploadSongAct">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="177dp"
+        android:background="@android:color/background_light"
+        android:text="@string/select_a_song" />
+
+    <Spinner
+        android:id="@+id/listmovie"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_marginStart="26dp"
+        android:layout_toEndOf="@+id/textView1"
+        android:background="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listmovie"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="136dp"
+        android:text="UPLOAD"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>

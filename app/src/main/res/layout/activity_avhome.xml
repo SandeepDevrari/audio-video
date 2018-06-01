@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/papaLay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/audiovideo"
+    tools:context="com.example.angry.audiovideo.AVHomeAct"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="113dp"
+        android:weightSum="1"
+        tools:ignore="UselessParent">
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="411dp"
+            android:layout_height="60dp"
+            android:background="@android:color/background_light"
+            android:text="Upload a Song"
+            tools:ignore="HardcodedText" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@android:color/background_light"
+            android:text="Upload a Movie"
+            tools:ignore="HardcodedText" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@android:color/background_light"
+            android:text="View Song List"
+            tools:ignore="HardcodedText" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@android:color/background_light"
+            android:text="View Uploaded Movies"
+            tools:ignore="HardcodedText" />
+
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@android:color/background_light"
+            android:text="Remove Song/Movie"
+            tools:ignore="HardcodedText" />
+
+    </RadioGroup>
+</RelativeLayout>
